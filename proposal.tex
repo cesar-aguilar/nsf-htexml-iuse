@@ -1,0 +1,153 @@
+\documentclass[11pt]{article}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{pstricks}
+\usepackage{caption}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{paralist}
+
+\usepackage[ps2pdf=true,pagebackref=true,colorlinks=true,breaklinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancyplain}
+\lhead[RUI]{RUI} 
+\chead[hTeXML: Web Authoring for STEM]{Web Authoring for STEM}
+\rhead[C. Aguilar]{C. Aguilar}
+
+% Move sections heading to the center
+\usepackage[center]{titlesec}
+\titleformat{\section}[hang]{\normalfont\scshape}{\thesection.}{.5em}{\filcenter}[]
+\titleformat{\subsection}[hang]{\normalfont\scshape}{\thesubsection.}{.5em}{\filcenter}[]
+
+% Changes title of bibliography
+\renewcommand\refname{\textbf{\Large References}}
+
+% Theorem environments
+\newtheoremstyle{theorem}{3pt}{3pt}{\itshape}{}{\bfseries}{.}{.5em}{}
+\theoremstyle{theorem}
+\newtheorem{theorem}{Theorem}
+\newtheoremstyle{definition}{3pt}{3pt}{\normalfont}{}{\bfseries}{.}{.5em}{}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+% Spacing commands
+%\usepackage{bibspacing}
+%\setlength{\bibspacing}{6pt}
+
+% User defined commands
+\newcommand{\real}{\mathbb{R}}
+
+\newcommand{\bs}[1]{\mathbf{#1}}
+\newcommand{\Dd}{\bs{D}}
+\newcommand{\adj}{\bs{A}}
+\newcommand{\lap}{\bs{L}}
+\newcommand{\gph}{\mathcal{G}}
+\newcommand{\ver}{\mathcal{V}}
+\newcommand{\edg}{\mathcal{E}}
+\newcommand{\bi}{\bs{b}}
+\newcommand{\ev}{\bs{e}}
+
+%=========================================================
+\begin{document}
+
+\begin{center}
+\textbf{\Large Project Description}\\[0.25cm]
+\hrulefill\\
+\textbf{\Large RUI:  hTeXML}\\
+\hrulefill
+\end{center}
+\baselineskip 1.5em
+
+%=========================================================
+\section{Introduction: Placeholder}
+
+
+%=========================================================
+\section{Project Proposal}
+
+
+
+\subsection{Overview}
+
+%=========================================================
+\subsection{Existing Technology}
+
+\subsubsection{MathML}
+\textbf{Mathematical Markup Language} (MathML) is a language used to describe the presentation and content of mathematical notation.  MathML is used in web browsers, in computer algebra systems (CAS), print typesetting, and voice synthesis.  The goal of MathML is to enable mathematically rich documents on the web in the same way that HTML has enabled this functionality for text; MathML markup can be written alongside HTML markup.  MathML markup can become quite complicated even for simple mathematical expressions.  As an example, the MathML markup to describe the mathematical expression
+\[
+x = \frac{-b \pm\sqrt{b^2-4ac}}{2a}
+\]
+is given by
+\begin{verbatim}
+    <math>
+      <mi>x</mi><mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mo>-</mo><mi>b</mi><mo>&pm;</mo>
+          <msqrt>
+            <msup><mi>b</mi><mn>2</mn></msup>
+            <mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi>
+          </msqrt>
+        </mrow>
+        <mrow><mn>2</mn><mi>a</mi></mrow>
+      </mfrac>
+    </math>
+\end{verbatim}
+whereas the equivalent LaTeX markup is
+\begin{verbatim}
+    \[
+        x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+    \]
+\end{verbatim}
+Needless to say, typing MathML by hand can be very tedious and error prone and as such it is not intended to be edited by hand.  Instead, the generation of MathML markup is usually the task of specialized equation editors or the result of a conversion from another markup language such as LaTeX.
+
+\subsubsection{LaTeX2HTML}
+LaTeX2HTML is a utility that converts LaTeX documents to web pages in HTML (latex2html.org).  As described on the programs website, ``\textit{LaTeX2HTML replicates the basic structure of a LaTeX document as a set of interconnected HTML files which can be explored using automatically generated navigation panels. The cross-references, citations, footnotes, the table of contents and the lists of figures and tables, are also translated into hypertext links. Formatting information which has equivalent tags in HTML (lists, quotes, paragraph breaks, type styles, etc.) is also converted appropriately. The remaining heavily formatted items such as mathematical equations, pictures or tables are converted to images which are placed automatically at the correct positions in the final HTML document''.}\footnote{latex2html.org}
+
+LaTeX2HTML is written in \textbf{perl} 
+
+
+
+
+
+%=========================================================
+\subsection{Placeholder}
+
+
+%=========================================================
+\section{Research Plan and Timeline}
+
+
+\noindent\textbf{First Year:}  
+
+\noindent\textbf{Second Year:}  
+
+\noindent\textbf{Third Year:}  
+%=============================================
+\section{Broader Impacts}
+
+\subsection{Research Impact}
+
+
+%=============================================
+\subsection{Training of STEM Students}
+
+\subsection{Educational Impact}    
+
+
+%=============================================
+\newpage
+
+% Bibliography
+
+
+\end{document}
