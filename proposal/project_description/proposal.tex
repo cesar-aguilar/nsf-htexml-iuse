@@ -109,13 +109,20 @@ whereas the equivalent LaTeX markup is
     \]
 \end{verbatim}
 Needless to say, typing MathML by hand can be very tedious and error prone and as such it is not intended to be edited by hand.  Instead, the generation of MathML markup is usually the task of specialized equation editors or the result of a conversion from another markup language such as LaTeX.
-
+ 
 \subsubsection{LaTeX2HTML}
-LaTeX2HTML is a utility that converts LaTeX documents to web pages in HTML (latex2html.org).  As described on the programs website, ``\textit{LaTeX2HTML replicates the basic structure of a LaTeX document as a set of interconnected HTML files which can be explored using automatically generated navigation panels. The cross-references, citations, footnotes, the table of contents and the lists of figures and tables, are also translated into hypertext links. Formatting information which has equivalent tags in HTML (lists, quotes, paragraph breaks, type styles, etc.) is also converted appropriately. The remaining heavily formatted items such as mathematical equations, pictures or tables are converted to images which are placed automatically at the correct positions in the final HTML document''.}\footnote{latex2html.org}
+\textbf{LaTeX2HTML} is a command line utility that converts LaTeX documents to web pages in HTML (latex2html.org).  As described on the programs website, ``\textit{LaTeX2HTML replicates the basic structure of a LaTeX document as a set of interconnected HTML files which can be explored using automatically generated navigation panels. The cross-references, citations, footnotes, the table of contents and the lists of figures and tables, are also translated into hypertext links. Formatting information which has equivalent tags in HTML (lists, quotes, paragraph breaks, type styles, etc.) is also converted appropriately. The remaining heavily formatted items such as mathematical equations, pictures or tables are converted to images which are placed automatically at the correct positions in the final HTML document''.}\footnote{latex2html.org}  Although LaTeX2HTML's goal of converting LaTeX documents to web pages is similar in spirit to htexml, there are core design features that distinguish LaTeX2HTML and htexml, such as:
 
-LaTeX2HTML is written in \textbf{perl} 
+\begin{itemize}
+\item Documentation for LaTeX2HTML is scarce and not easily accessible for an average computer user.  Basic usage of LaTeX2HTML is not available on the projects website or github page.
+\item LaTeX2HTML's conversion of mathematical equations to images to be rendered by the browser is in conflict with the goal of creating mathematically rich documents on the web that are rendered natively by the browser.
+\item LaTeX2HTML is written in \textbf{perl} and must be installed from source using using configure, make, and make install or is available as a package for Linux or through the MacOS package manager Homebrew.
+\item After installation, the program is available as a command line utility whereas all the functionality of htexml is accessible from a browser.
+\item Even for an experienced computer user, installing LaTeX2HTML from source or via Homebrew can present its challenges that could discourage users from using the program.  htexml requires no installation.
+\end{itemize}
 
-
+\subsubsection{TeX4ht}
+\textbf{TeX4ht} is a command line tool that converts LaTeX documents to various output formats including HTML, ODT (open document format), or DocBook.  According to the programs documentation, modern TeX distributions such as TeX Live and Miktex come with TeX4ht and a related bundling tool called \textbf{make4ht}.  
 
 
 
