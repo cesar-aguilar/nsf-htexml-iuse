@@ -12,7 +12,7 @@
 \usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
 \usepackage{paralist}
 
-\usepackage[pagebackref=true,colorlinks=true,breaklinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+\usepackage[pagebackref=true,colorlinks=true,breaklinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 
 \usepackage{fancyhdr}
 \setlength{\headheight}{15.2pt}
@@ -42,17 +42,7 @@
 %\setlength{\bibspacing}{6pt}
 
 % User defined commands
-\newcommand{\real}{\mathbb{R}}
 
-\newcommand{\bs}[1]{\mathbf{#1}}
-\newcommand{\Dd}{\bs{D}}
-\newcommand{\adj}{\bs{A}}
-\newcommand{\lap}{\bs{L}}
-\newcommand{\gph}{\mathcal{G}}
-\newcommand{\ver}{\mathcal{V}}
-\newcommand{\edg}{\mathcal{E}}
-\newcommand{\bi}{\bs{b}}
-\newcommand{\ev}{\bs{e}}
 
 %=========================================================
 \begin{document}
@@ -67,7 +57,25 @@
 
 %=========================================================
 \section{Introduction: OER Resources}
-Price of textbooks from January 1997 to June 2018 incresed by over 204\%\footnote{https://www.aei.org/carpe-diem/the-chart-of-the-century-makes-the-rounds-at-the-federal-reserve} while from January 2000 to June 2022 increased by over 160\%\footnote{https://www.aei.org/carpe-diem/chart-of-the-day-or-century-8}.  
+
+
+\subsection{Cost of College Textbooks: Relief on the Horizon?}
+Students, parents, and educators are well aware of the exorbitant price increases of college textbooks in recent decades.  Using data from the Bureau of Labor Statistics, economist Mark J. Perry of the University of Michigan\textendash Flint published a chart in 2018 that shows the price changes of several goods and services from 1997 to 2018 \cite{perry2018}.  The chart shows that the price of textbooks increased by 204\% from 1997-2018.  The chart is updated every 6 months and the latest update was published in July 2022 \cite{perry2022}; see Figures~\ref{fig:cpi-textbooks-2018}-\ref{fig:cpi-textbooks-2022}.  Based on the data, college textbook prices have increased between 5-6\% annually on average which is well above the average annual inflation rate of 2\% over the same period.  Interestingly, Perry points out that beginning in 2017 and up to 2020, the price of college textbooks saw flat and small declines, with 2021 experiencing a small increase of 1.4\%.  Perry writes that the ``\textit{two consecutive annual decreases in 2019 and 2020 and the small increase in 2021 have been an unprecedented departure from a half-century of increases in educational book prices that averaged more than 6\% between 1968 and 2018}''.  Perry goes on to say that the price changes in textbooks could be attributed to the competition faced by traditional publishers from ``open textbooks'' and cites as examples the \href{https://open.umn.edu/opentextbooks}{Open Textbooks Library} and \href{https://openstax.org/}{OpenStax} websites as sources of hundreds of textbooks available for free.
+
+\begin{figure}[h!]
+\begin{minipage}[t]{8.0cm}
+\includegraphics[width=70mm,height=80mm]{cpichart2018a.png}
+\caption{\small From January 1997 to June 2018, the price of college textbooks has increased by approximately 204\%. (source: \href{aei.org/carpe-diem}{aei.org/carpe-diem}) }\label{fig:cpi-textbooks-2018}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{8.0cm}
+\includegraphics[width=70mm,height=82mm]{cpi2022junea-3.png}
+\caption{\small From January 2000 to June 2022, the price of college textbooks has increased by approximately 162\%. (source: \href{aei.org/carpe-diem}{aei.org/carpe-diem})}\label{fig:cpi-textbooks-2022}
+\end{minipage}
+
+\end{figure}
+
+
 
 %=========================================================
 \section{Project Proposal}
@@ -153,6 +161,11 @@ Needless to say, typing MathML by hand can be very tedious and error prone and a
 \newpage
 
 % Bibliography
+\begin{thebibliography}{99}
+  \bibitem{perry2018} Mark J. Perry, {\em The CD `chart of the Century' Makes the Rounds at the Federal Reserve}, Carpe Diem (July 13, 2018), \href{https://www.aei.org/carpe-diem/the-chart-of-the-century-makes-the-rounds-at-the-federal-reserve/}{https://www.aei.org/carpe-diem/the-chart-of-the-century-makes-the-rounds-at-the-federal-reserve/}.
+
+  \bibitem{perry2022} Mark J. Perry, {\em Chart of the Day \ldots or Century?}, Carpe Diem (July 23, 2022), \href{https://www.aei.org/carpe-diem/chart-of-the-day-or-century-8/}{https://www.aei.org/carpe-diem/chart-of-the-day-or-century-8/}
+\end{thebibliography}
 
 
 \end{document}
