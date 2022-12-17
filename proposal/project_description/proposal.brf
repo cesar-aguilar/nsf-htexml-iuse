@@ -1,15 +1,15 @@
-\backcite {oerguidelines}{{1}{1}{section.1}}
-\backcite {oerworldcongress}{{1}{1}{section.1}}
-\backcite {wileynd}{{1}{1}{Item.2}}
-\backcite {JS-JS:2022}{{2}{1}{figure.caption.1}}
-\backcite {LA:2017}{{2}{1}{Item.7}}
-\backcite {CC:17, MS:14}{{2}{1}{Item.7}}
-\backcite {JS-JS:2022}{{2}{1}{Item.7}}
-\backcite {JS-JS:2022}{{2}{1}{figure.caption.1}}
-\backcite {flvc2022}{{2}{1}{figure.caption.1}}
-\backcite {bls}{{3}{1.1}{subsection.1.1}}
-\backcite {perry2018, perry2022}{{3}{1.1}{subsection.1.1}}
-\backcite {perry2018, perry2022}{{3}{1.1}{subsection.1.1}}
-\backcite {flvc2022}{{3}{1.1}{figure.caption.2}}
-\backcite {MB:2022}{{4}{1.2}{subsection.1.2}}
-\backcite {SO:19}{{4}{1.2}{subsection.1.2}}
+\backcite {oerguidelines}{{1}{1.1}{subsection.1.1}}
+\backcite {oerworldcongress}{{1}{1.1}{subsection.1.1}}
+\backcite {wileynd}{{1}{1.1}{Item.2}}
+\backcite {LA:2017}{{2}{1.1}{Item.7}}
+\backcite {CC:17, MS:14}{{2}{1.1}{Item.7}}
+\backcite {JS-JS:2022}{{2}{1.1}{Item.7}}
+\backcite {JS-JS:2022}{{2}{1.1}{figure.caption.1}}
+\backcite {flvc2022}{{2}{1.1}{figure.caption.1}}
+\backcite {bls}{{2}{1.2}{subsection.1.2}}
+\backcite {perry2018, perry2022}{{2}{1.2}{subsection.1.2}}
+\backcite {JS-JS:2022}{{3}{1}{figure.caption.1}}
+\backcite {flvc2022}{{3}{1.2}{figure.caption.2}}
+\backcite {MB:2022}{{3}{1.3}{subsection.1.3}}
+\backcite {SO:19}{{4}{1.3}{subsection.1.3}}
+\backcite {CC:16}{{4}{1.3}{subsection.1.3}}

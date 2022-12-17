@@ -1,0 +1,4 @@
+{"count": 64, "formats": {"Online": 43, "eBook": 35, "PDF": 61, "XML": 15, "ODF": 9, "MS Word": 4, "Hardcopy": 13}, "licenses": {"CC BY-SA": 5, "CC BY-NC-SA": 21, "CC BY": 24, "CC BY-NC": 14}}
+{"count": 87, "formats": {"Online": 56, "eBook": 41, "PDF": 84, "XML": 16, "ODF": 11, "MS Word": 4, "Hardcopy": 13}, "licenses": {"CC BY-SA": 6, "CC BY-NC-SA": 33, "CC BY": 32, "CC BY-NC": 15, "CC BY-NC-ND": 1}}
+{"count": 118, "formats": {"Online": 73, "eBook": 55, "PDF": 115, "XML": 26, "ODF": 16, "MS Word": 6, "Hardcopy": 19, "Google Doc": 1}, "licenses": {"CC BY-SA": 8, "CC BY-NC-SA": 48, "CC BY": 40, "CC BY-NC": 21, "CC BY-NC-ND": 1}}
+{"count": 145, "formats": {"Online": 83, "eBook": 57, "PDF": 142, "XML": 26, "ODF": 16, "MS Word": 6, "Hardcopy": 30, "Google Doc": 1, "LaTeX": 1}, "licenses": {"CC BY-SA": 10, "CC BY-NC-SA": 55, "CC BY": 49, "CC BY-NC": 24, "CC BY-NC-ND": 7}}

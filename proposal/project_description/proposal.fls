@@ -683,6 +683,7 @@ OUTPUT proposal.out
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvrc7t.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -756,11 +757,15 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
+INPUT ./stem-textbook-formats.png
+INPUT ./stem-textbook-formats.png
+INPUT stem-textbook-formats.png
+INPUT ./stem-textbook-formats.png
+INPUT ./stem-textbook-formats.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT ./proposal.brf

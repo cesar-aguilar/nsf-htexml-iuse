@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1671159046 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1671159048
-  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1671159045 17570 f7e5d2127449ba041cc3e20872ce081e ""
+["pdflatex"] 1671299282 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1671299284
+  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1671299281 20330 05d6be30d77b78c2fb10e7c37fc97cbd ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -123,10 +123,11 @@
   "cpi2022junea-3.png" 1671034791 195708 ae1f19595f9aa22141f32411e169612c ""
   "cpichart2018a.png" 1671034752 285850 a544199c74c723a90e75c64a179f7136 ""
   "oer_awareness.png" 1671137999 80949 1f19b98cda94f30b0370fbcb7a349b4a ""
-  "proposal.aux" 1671159047 5852 535982d7cccfdf9a6a6a1461d24ed674 "pdflatex"
-  "proposal.brf" 1671159047 689 37155c978ef7d18a3f63a824d68fd4a3 "pdflatex"
-  "proposal.out" 1671159047 2223 eac7aa51d806f5d051564e590c9f3b40 "pdflatex"
-  "proposal.tex" 1671159045 17570 f7e5d2127449ba041cc3e20872ce081e ""
+  "proposal.aux" 1671299284 6573 31cc4fcde80f48fd0cb7fc2b9f733e4d "pdflatex"
+  "proposal.brf" 1671299284 700 32b8ffdda8e2934fc116e013cc9275ad "pdflatex"
+  "proposal.out" 1671299284 2417 b5747ecd0c2e11cbebc7f7df8a43301f "pdflatex"
+  "proposal.tex" 1671299281 20330 05d6be30d77b78c2fb10e7c37fc97cbd ""
+  "stem-textbook-formats.png" 1671293201 96894 dbf046bbf29b0feba3658cf1fb2720a7 ""
   (generated)
   "proposal.aux"
   "proposal.brf"
