@@ -9,3 +9,5 @@ Websites on OER and Textbook Research
 - Phil Hill, Postscript on Student Textbook Expenditures: More details on data sources, http://mfeldstein.wpengine.com/postscript-on-student-textbook-expenditures-more-details-on-data-sources/
 
 - Phil Hill, Fall 2020 Updates: What do college students actually spend on course materials, https://philonedtech.com/fall-2020-updates-what-do-college-students-actually-spend-on-course-materials/
+
+- Learnersourcing in Theory and Practice: Synthesizing the Literature and Charting the Future, https://dl.acm.org/doi/abs/10.1145/3491140.3528277
