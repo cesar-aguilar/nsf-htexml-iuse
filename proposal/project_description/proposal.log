@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  21 DEC 2022 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  22 DEC 2022 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,32 +440,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 91.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [2]
-<oer_awareness.png, id=140, 722.7pt x 722.7pt>
+) [2] [3] [4]
+<oer_awareness.png, id=213, 722.7pt x 722.7pt>
 File: oer_awareness.png Graphic file (type png)
 <use oer_awareness.png>
-Package pdftex.def Info: oer_awareness.png  used on input line 161.
+Package pdftex.def Info: oer_awareness.png  used on input line 165.
 (pdftex.def)             Requested size: 256.0748pt x 256.06956pt.
- [3] [4]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 167.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 171.
 
-Underfull \hbox (badness 1158) in paragraph at lines 177--177
+Underfull \hbox (badness 1158) in paragraph at lines 181--181
 \OT1/phv/m/n/10.95 im-age, PDF, or other non-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 177--177
+Underfull \hbox (badness 1320) in paragraph at lines 181--181
 \OT1/phv/m/n/10.95 editable for-mat that can-not
  []
 
-<stem-textbook-formats.png, id=179, 722.7pt x 722.7pt>
+<stem-textbook-formats.png, id=229, 722.7pt x 722.7pt>
 File: stem-textbook-formats.png Graphic file (type png)
 <use stem-textbook-formats.png>
-Package pdftex.def Info: stem-textbook-formats.png  used on input line 185.
+Package pdftex.def Info: stem-textbook-formats.png  used on input line 189.
 (pdftex.def)             Requested size: 227.62204pt x 227.61862pt.
 [5 <./oer_awareness.png>] [6] [7 <./stem-textbook-formats.png>] [8] [9]
-Overfull \hbox (6.98132pt too wide) in paragraph at lines 249--250
+Overfull \hbox (6.98132pt too wide) in paragraph at lines 255--256
 []\OT1/phv/m/n/10.95 LaTeX2HTML's con-ver-sion of math-e-mat-i-cal equa-tions to im-ages to be ren-dered by the browser
  []
 
@@ -474,34 +473,34 @@ Overfull \hbox (6.98132pt too wide) in paragraph at lines 249--250
 \openout4 = `proposal.brf'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
 []\OT1/phv/m/n/10.95 About CC Li-censes (n.d.), Cre-ative Com-mons. (n.d.). Re-trieved from
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []\OT1/phv/m/n/10.95 Frequently Asked Ques-tions (n.d.). Open Text-book Li-brary. Re-trieved from
  []
 
-[12] [13] [14] (./proposal.aux)
+[13] [14] [15] [16] (./proposal.aux)
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 0B2A7F2AD4B3E5C019845382E755803E;2767.
+(rerunfilecheck)             Checksum: 495BAD5A8BA7351A9139AFBEE94376EB;2747.
 Package rerunfilecheck Info: File `proposal.brf' has not changed.
-(rerunfilecheck)             Checksum: 910461D7DD4563A456DA90CF9039BA26;1786.
+(rerunfilecheck)             Checksum: 6EB72ED2918B9711349CC8B9860171BE;2092.
  ) 
 Here is how much of TeX's memory you used:
- 12684 strings out of 478268
- 201595 string characters out of 5846348
- 505786 words of memory out of 5000000
- 30623 multiletter control sequences out of 15000+600000
+ 12776 strings out of 478268
+ 202727 string characters out of 5846348
+ 506722 words of memory out of 5000000
+ 30695 multiletter control sequences out of 15000+600000
  492969 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,2373b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,91p,2320b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on proposal.pdf (14 pages, 309131 bytes).
+Output written on proposal.pdf (16 pages, 316983 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
+ 103 named destinations out of 1000 (max. 500000)
  147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

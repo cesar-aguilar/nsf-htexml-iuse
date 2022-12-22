@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1671673878 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1671673879
-  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1671673875 40246 c88c671774f662fdaaf5021406ab3c7f ""
+["pdflatex"] 1671743011 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1671743012
+  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1671743010 46220 814baf09ac379753b6e7f2e5770fcfae ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -122,10 +122,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1662666498 2826435 5350e39d5653ae9e84f92fcd8d13bb5d ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "oer_awareness.png" 1671137999 80949 1f19b98cda94f30b0370fbcb7a349b4a ""
-  "proposal.aux" 1671673879 10114 6912f0981816735ceedfaf25e0888f2c "pdflatex"
-  "proposal.brf" 1671673879 1786 910461d7dd4563a456da90cf9039ba26 "pdflatex"
-  "proposal.out" 1671673879 2767 0b2a7f2ad4b3e5c019845382e755803e "pdflatex"
-  "proposal.tex" 1671673875 40246 c88c671774f662fdaaf5021406ab3c7f ""
+  "proposal.aux" 1671743012 11865 5ddf207264a894295ec603159a8f76fe "pdflatex"
+  "proposal.brf" 1671743012 2092 6eb72ed2918b9711349cc8b9860171be "pdflatex"
+  "proposal.out" 1671743012 2747 495bad5a8ba7351a9139afbee94376eb "pdflatex"
+  "proposal.tex" 1671743010 46220 814baf09ac379753b6e7f2e5770fcfae ""
   "stem-textbook-formats.png" 1671293201 96894 dbf046bbf29b0feba3658cf1fb2720a7 ""
   (generated)
   "proposal.aux"
