@@ -37,17 +37,20 @@
 
 % Custom commands
 \newcommand{\alink}[2]{\href{#1}{\textcolor{blue}{#2}}}
+\newcommand{\myast}{$^\text{\large\textasteriskcentered}$}
 
 %=========================================================
 \begin{document}
-
+\thispagestyle{empty}
 \begin{center}
 \textbf{\Large Project Description}\\[0.25cm]
-\hrulefill\\[0.25cm]
+\hrulefill\\[0.2cm]
 \textbf{\Large Facilitating Community Building in \\[0.2ex] Open Educational Resources \\[0.8ex] for Improved Student Learning Engagement}\\
 \hrulefill
 \end{center}
 \baselineskip 1.5em
+
+\tableofcontents
 
 %=========================================================
 \section{Overview}
@@ -158,7 +161,7 @@ Many studies have been performed measuring the efficacy of OER on student perfor
 
 Other studies have reported no significant differences in student performance in courses adopting OER \cite{VC:18, VC-SK:19, YC-CC:17, RJ-FD-RL-KP:18, ML-OM-CT:08, CL-JL:18, WB-MC-KL:12, JH-DG:13, LF-JH:15, GA-AG-MM:15, OO-CH:17, TR:15, EC:17, CH-SR-GR:17, HR-CH-VM:18, JWS-JP:17} and some studies reported that students enrolled in OER courses performed worse \cite{YC-CC:17, RG:17, TR:15}.  Meta-analyses have been performed to find recurring themes and characteristics in research performed on the efficacy on student learning and perceptions of OER \cite{VC-SK:19, hilton:16, hilton:22}.  Results across the studies analyzed in the meta-analyses \cite{hilton:16, hilton:22} suggests that ``students achieve the same or better learning outcomes when using OER while saving significant amounts of money'' and that ``the results also indicate that the majority of faculty and students who have used OER had a positive experience and would do so again.''  In the meta-analysis \cite{VC-SK:19}, which was based on 22 independent studies, it was concluded that ``there appeared to be no effect on learning performance in courses with open textbooks compared with courses with commercial textbooks'' but that ``there was a significant reduction in the likelihood of students withdrawing from the course'' using OER.  If a student who has fallen behind in a course is able to easily access the required course textbook then it is possible that they are more likely to remain in the course; the most common reason that a student withdraws from a course is that they aniticipate failing the course or receiving a low grade \cite{EW-KB-HK:12}.
 
-\subsection{Barriers in OER Adoption}
+\subsection{Barriers to OER Adoption}
 Recent studies show that awareness of OER in colleges and universities has grown in the last decade driven primarily by statewide and/or institutional initiatives.  For example, in annual national surveys conducted by Bay View Analytics, which collects for their surveys a representative sample of the broad range of teaching faculty in U.S. higher education, 46\% of polled faculty indicated being aware of both OER and CC licensing in the 2021-2022 survey compared to only 17\% in 2014-2015 \cite{JS-JS:2022}; see Figure~\ref{fig:oer-awareness}.  In the same survey, the majority of respondents indicated that, because of the switch to online learning due to the COVID pandemic, their opinions of online learning improved (54\%) as did their acceptance of digital materials (68\%).  Although progress has been made in increasing college faculty awareness of OER, much work remains to be done to increase the actual usage and creation of quality open educational resources \cite{MB:2022, flvc2022}.
 \begin{figure}[t]
 \centering
@@ -199,13 +202,13 @@ The file format chosen to distribute OER affects not only the adaptability of co
 \item PDF files are closed for editing and adaptation without expensive software or technical expertise, and
 \item without additional effort by content creators, screen readers cannot reliably parse special elements in a PDF file let alone elements that contain rich mathematical content.
 \end{compactitem}
-The limitations with using PDF to deliver web content not only affects user experience but also users' perceived \textbf{quality} of the content which studies have shown is one of the barriers to OER adoption by faculty \cite{OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}.
+The limitations with using PDF to deliver web content not only affects user experience but also users' perceived \textbf{quality} of the content which studies have shown is a potential barrier to OER adoption by faculty \cite{OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}.
 
 In contrast, HTML is \textit{the} native mark-up language of the web and is the language supported by all web browsers.  HTML is inherently accessible and can be made more accessible with the use of HTML5 semantic tags and special attributes.  Moreover, recent technologies such as MathJax, which has received support from the AMS, SIAM, IEEE, to name only a few, have made it possible to embed mathematical mark-up languages such as LaTeX directly inside HTML documents to create web pages that contain rich mathematical content.  LaTeX is widely used in academia for the distribution and publication of scientific documents, particularly those containing mathematical content.  LaTeX was created in 1985 by Leslie Lamport and is based on the typesetting system TeX created by Donald Knuth in 1978.  LaTeX is widely supported and used by all major publishers of scientific journals and books and is actively developed and maintained by the LaTeX Project.  Many books have been written on the use of LaTeX and is considered the de facto standard for the creation of scientific documents.  Moreover, LaTeX is open-source software and can be easily installed on various computer platforms.
 
 The ability to embed LaTeX in HTML has broad implications on the creation of web-based OER  by mathematicians, computer scientists, engineers, and physicists due to the ubiquitous use of LaTeX in STEM to write course notes, textbooks, and other educational materials.  However, individual content creators and institutional publishers are faced with the difficult and time-consuming task of converting LaTeX source code to HTML in order to take advantage of the native rendering capabilities in web browsers.  Although existing open-source software exist to convert between different mark-up languages such as LaTeX and HTML, most notably \textbf{pandoc}, the conversion process is not always straightforward and requires a certain level of technical expertise.  Alternatively, \textbf{PreTeXt} is a recent mark-up language for authoring and publishing content on the web (and other formats) especially in STEM disciplines but requires authors to learn a new mark-up language and requires the conversion of LaTeX content  to the PreTeXt language.  Although PreTeXt is a promising solution for authoring mathematical content on the web, the ubiquity of LaTeX in STEM fields and the HTML standard built in all web browsers naturally calls for more user friendly and open-source tools to convert between LaTeX and HTML and thereby allows authors to continue to use LaTeX to create STEM educational resources.
 
-\subsection{Open Educational Practice: More Than Just Cost Savings}
+\subsection{Open Educational Practices: More Than Just Cost Savings}
 ``Open pedagogy means providing real-life, relevant, and transparent learning opportunities that let students become much more engaged with the material, thereby improving learning outcomes. Because students know their work will be used both by their peers and potentially by future generations of students, they invest in this work at a different level" (Wiley 2013).
 
 According to David Wiley (2013), ``Open pedagogy is that set of teaching and learning practices only possible in the context of the free access and 4R permissions characteristic of open educational resources \ldots Simply adopting open educational resources will not make one's pedagogy magically change to take advantage of the capabilities of the internet. Adding legal permission to technological capacity only creates possibilities - we must choose to actively take advantage of them. There is nothing about OER adoption that forces innovative teaching practices on educators."
@@ -254,15 +257,7 @@ whereas the equivalent LaTeX markup is
 Needless to say, typing MathML by hand can be very tedious and error prone and as such it is not intended to be edited by hand.  Instead, the generation of MathML markup is usually the task of specialized equation editors or the result of a conversion from another markup language such as LaTeX.
  
 \subsubsection{LaTeX2HTML}
-\textbf{LaTeX2HTML} is a command line utility that converts LaTeX documents to web pages in HTML (latex2html.org).  As described on the programs website, ``\textit{LaTeX2HTML replicates the basic structure of a LaTeX document as a set of interconnected HTML files which can be explored using automatically generated navigation panels. The cross-references, citations, footnotes, the table of contents and the lists of figures and tables, are also translated into hypertext links. Formatting information which has equivalent tags in HTML (lists, quotes, paragraph breaks, type styles, etc.) is also converted appropriately. The remaining heavily formatted items such as mathematical equations, pictures or tables are converted to images which are placed automatically at the correct positions in the final HTML document''.}\footnote{latex2html.org}  Although LaTeX2HTML's goal of converting LaTeX documents to web pages is similar in spirit to htexml, there are core design features that distinguish LaTeX2HTML and htexml, such as:
-
-\begin{itemize}
-\item Documentation for LaTeX2HTML is scarce and not easily accessible for an average computer user.  Basic usage of LaTeX2HTML is not available on the projects website or github page.
-\item LaTeX2HTML's conversion of mathematical equations to images to be rendered by the browser is in conflict with the goal of creating mathematically rich documents on the web that are rendered natively by the browser.
-\item LaTeX2HTML is written in \textbf{perl} and must be installed from source using using configure, make, and make install or is available as a package for Linux or through the MacOS package manager Homebrew.
-\item After installation, the program is available as a command line utility whereas all the functionality of htexml is accessible from a browser.
-\item Even for an experienced computer user, installing LaTeX2HTML from source or via Homebrew can present its challenges that could discourage users from using the program.  htexml requires no installation.
-\end{itemize}
+\textbf{LaTeX2HTML} is a command line utility that converts LaTeX documents to web pages in HTML (latex2html.org).  Documentation for LaTeX2HTML is scarce and not easily accessible for an average computer user.  Basic usage of LaTeX2HTML is not available on the projects website or github page. LaTeX2HTML's conversion of mathematical equations to images to be rendered by the browser is in conflict with the goal of creating mathematically rich documents on the web that are rendered natively by the browser.  Installation of the program requires a more than average level of computer literacy and is not easily accessible to the average computer user.  LaTeX2HTML is not available as a web-based application.
 
 \subsubsection{TeX4ht}
 \textbf{TeX4ht} is a command line tool that converts LaTeX documents to various output formats including HTML, ODT (open document format), or DocBook.  According to the programs documentation, modern TeX distributions such as TeX Live and Miktex come with TeX4ht and a related bundling tool called \textbf{make4ht}.  
@@ -293,6 +288,42 @@ Needless to say, typing MathML by hand can be very tedious and error prone and a
 
 \subsection{Educational Impact}    
 
+\section{Results from Prior NSF Support}
+The PI has received prior NSF support from the Energy, Power, Control, and Networks program under the Division of Electrical, Communications and Cyber Systems.  The award was granted in 2015 when the PI was a faculty member at California State University Bakersfield (CSUB) (award \#1509966) and was then transferred in 2016 to the PI's current institution SUNY Geneseo (award \#1700578).  The initial award amount was \$231,314 with a start date of September 1, 2015 and end date of November 30, 2016, and the transferred award was in the amount of \$181,889 with a start date of September 29, 2016 and end date of August 31, 2020.  The title of the award was \textit{RUI: Network Structure and Controllability in Natural and Engineered Interacting Dynamic Systems}.
+
+The goal of the research was to advance our scientific understanding of how the local structure of a networked dynamic system influences the global controllability properties of the system and to develop algorithms that avoid undesirable control intervention in such a system. The tools used in the research blended techniques from mathematical control theory, algebraic graph theory, matric analysis, and scientific computing. The results of the research could be used by engineers and scientists to identify control limitations within an existing network and facilitate the construction of new interconnected dynamic systems with specified controllability properties. The PI involved undergraduate students in the research project through focused summer research projects which led to several presentations at national and international conferences by the students.  The results of the research were published in leading mathematics and control engineering journals.
+
+\subsection{Intellectual Merit}
+Our research discovered new types of local structures that inhibit the controllability of a network of dynamical system. Previous results in the literature attributed network uncontrollability primarily to local symmetries; our work showed that a much wider class of local structures related to agent clustering can induce uncontrollability and that in most cases these broader structures are present in higher numbers than symmetric structures.
+
+Spectral analysis is closely tied to the controllability properties of a linear control system. Our results provided a rich understanding of the spectral properties of a large class of graphs called \textbf{threshold graphs}. Threshold graphs have received considerable interest in the controls community and by graph theorists because they possess interesting algorithmic properties with regards to the their structure and design. Our spectral results for these graphs can be used to benchmark existing control strategies and in particular, the amount of control energy needed for state transfer and steady--state point stabilization.  Our work also provided a nearly complete characterization of the eigenvalues of a large and rich class of threshold graphs.
+
+The results of the research were published in leading mathematics and control engineering journals and presented at conferences: Automatica, Linear Algebra and Its Applications, IEEE Transactions on Control of Network Systems, the American Control Conference, the Joint Mathematics Meeting, and the MAA Seaway Section meetings.  As of December 30, 2022, our publications have been cited 21 times by publications indexed by MathSciNet and 81 times by publications index by Google Scholar.  Below is the list of publications from our research (student co-authors are indicated by an asterisk):
+\begin{enumerate}
+\item C.O. Aguilar, B. Gharesifard (2016). On almost equitable partitions and network controllability. {\em Proceedings of the American Control Conference}. pp. 179-184.
+\item C.O. Aguilar, B. Gharesifard (2017). Almost equitable partitions and new necessary conditions for network controllability. {\em Automatica}. Vol. 80, pp. 25-31.
+\item C.O. Aguilar, J. Lee\myast, E. Piato\myast, B.J. Schweitzer\myast (2018). Spectral characterizations of anti-regular graphs. \textit{Linear Algebra and Its Applications}. Vol. 557, pp. 84-104.
+\item C.O. Aguilar (2020). Strongly uncontrollable network topologies. \textit{IEEE Transactions on Control of Network Systems}. Vol. 7, Issue 2, pp. 878-886.
+\item C.O. Aguilar, M. Ficarra\myast, N. Schurman\myast, B. Sullivan\myast (2020). The role of the anti-regular graph in the spectral analysis of threshold graphs. \textit{Linear Algebra and Its Applications}. Vol. 588, pp. 210-223.
+\end{enumerate}
+All of the papers are freely available on the PI's professional academic homepage at SUNY Geneseo.
+
+\subsection{Broader Impacts}
+Although a generic or random network will contain no local symmetries or patterns, many real-world networks possess a high-level of symmetry and agent clustering. This is due to the fact that real-world networks grow progressively by adding a new node to the network which introduces tree-like symmetries. When such structures are present in a network, the task of choosing which nodes to control becomes very delicate and in a large network a brute-force approach is infeasible. A specific objective that was obtained in our work was the discovery of a class of networks that were tree-like and have the astonishing property that for no matter what choice of nodes are chosen as control agents, the resulting linear control system is uncontrollable. Such an extreme situation was only thought to occur because of the case of degeneracy in the spectral properties of the underlying system matrix, but the networks we discovered have the property that all eigenvalues of the system matrix are distinct. Although these networks are extremely rare, the properties of these networks provide a rich source of the mechanisms that lead to the uncontrollability of a linear multi-agent system and could provide the seed that leads to a complete characterization of controllability for multi-agent systems.
+
+An important contribution of our research in the wider scientific community is the technique we used to study the eigenvalues of the class of threshold graphs. The class of threshold graph is widely studied due to their numerous applications in resource allocation problems, parallel computing, and psychology. Many algorithmic problems on graphs have been shown to be solved in polynomial time for threshold graphs. Our approach to study threshold graphs used combinatorial matrix methods, eigenvalue interlacing, Toeplitz matrices and Chebyshev polynomials. In particular, using Chebyshev polynomials we were able to give a nearly complete characterization of the eigenvalues of a particular threshold graph which we later proved played a distinguished role among all threshold graphs. Our results on threshold graphs, published in 2019 and 2020, have already been cited 10 times as tracked by MathSciNet. Moreover, we made some conjectures on the eigenvalue distribution of threshold graphs which sparked other researchers in spectral graph theory to contribute to their understanding \cite{MA-EG:23, LA-AE-RB:2017}.
+
+During the award period, 10 undergraduate students were involved in the project, all of which have graduated (9 from SUNY Geneseo and 1 from CSUB). Three of the students involved in the research are pursuing PhD degrees in a STEM field (University of Maryland College Park, Washington University in St. Louis, Syracuse University), and the other 7 are working as software developers and engineers (M\&T Bank, Epic, Corning).  Below are some of the accomplishments of the students involved in the project:
+\begin{itemize}
+\item Seven of the 10 students involved made presentations at national and regional conferences: Joint Math Meeting and the MAA regional meetings. Two of the students presented at the SUNY Geneseo Math Colloquium.
+\item After being involved in the project, two of the students were admitted to national REU programs (Michigan State University and James Madison University).
+\item Six of the 10 students appear as co-authors in peer-reviewed journal papers.
+\item All students learned how to use LaTeX for writing and presenting mathematics, and also learned the programming language Python.
+\end{itemize}
+
+During the award period, the PI was invited to host SUNY Geneseo's annual Math Research Weekend (MRW). The Geneseo Research Weekend is a 2-day program where an invited guest leads a team of  undergraduates on a math research topic proposed by the invitee. The MRW is offered to Geneseo students to give them a taste of math research, and sometimes the results are presented at conferences and/or published in a scholarly journal. The invited guest comes to the Geneseo campus and gives a colloquium talk on a Friday afternoon and then Friday evening and all day Saturday works with Geneseo undergraduates on a research topic. The colloquium talk is geared towards a broad audience and also serves to introduce the research topic to the students. The PI chose the topic of Google's PageRank algorithm for the MRW which leveraged the PI's research study on graph theory and spectral analysis in networks.
+
+During the award period, the PI gave two workshops to participants of New York State's Master Teacher Program (SUNY Geneseo region) in 2017 and 2019 on LaTeX and matrix linear algebra, respectively.  The New York State Master Teacher Program is a four-year professional development program for public school K-12 STEM teachers throughout New York state in which participants engage in a minimum of 50 hours of professional development activities each year with the goal of developing knowledge of STEM content, knowledge of pedagogy, and knowledge of students, families, and their communities.
 
 %=============================================
 \newpage
@@ -300,9 +331,13 @@ Needless to say, typing MathML by hand can be very tedious and error prone and a
 % Bibliography
 \begin{thebibliography}{99}
 
+  \bibitem{MA-EG:23} Abdi, M., and Ghorbani, E. (2023). Gap sets for the spectra of regular graphs with minimum spectral gap. {\em Discrete Mathematics}. 346(1), 113136.
+
   \bibitem{CA:22} Aguilar, C.O. (2022). Using file format to measure openness in open educational resources. In preparation.
 
-  \bibitem{LA:2017} Agnihotri, L., Essa, A., \& Baker, R. (2017, March). Impact of student choice of content adoption delay on course outcomes. {\em In Proceedings of the Seventh International Learning Analytics \& Knowledge Conference} (pp. 16-20)
+  \bibitem{LA-AE-RB:2017} Agnihotri, L., Essa, A., \& Baker, R. (2017, March). Impact of student choice of content adoption delay on course outcomes. {\em In Proceedings of the Seventh International Learning Analytics \& Knowledge Conference}. pp. 16-20.
+
+  \bibitem{AA-MA:2021} Alazemi, A., Andelic, M., Koledin, T., and Stanic, Z. (2021). Eigenvalue-free intervals of distance matrices of threshold and chain graphs. {\em Linear and Multilinear Algebra}. 69(16), 2959-2975.
 
   \bibitem{GA-AG-MM:15} Allen, G., Guzman-Alvarez, A., Molinaro, M., and Larsen, D. (2015). Assessing the impact and efficacy of the open-access ChemWiki textbook project. {\em Educause Learning Initiative Brief}. January 2015.
 

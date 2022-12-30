@@ -1,37 +1,38 @@
-\backcite {unescoforum:02, oerguidelines}{{1}{1.1}{subsection.1.1}}
-\backcite {oerworldcongress}{{1}{1.1}{subsection.1.1}}
-\backcite {wileynd}{{1}{1.1}{Item.2}}
+\backcite {unescoforum:02, oerguidelines}{{2}{1.1}{subsection.1.1}}
+\backcite {oerworldcongress}{{2}{1.1}{subsection.1.1}}
+\backcite {wileynd}{{2}{1.1}{Item.2}}
 \backcite {CClicenses:nd}{{2}{1.1}{Item.7}}
-\backcite {opentextbooksfaq:nd}{{2}{1.1}{Item.7}}
-\backcite {bls}{{2}{1.2}{subsection.1.2}}
-\backcite {perry2018}{{2}{1.2}{subsection.1.2}}
-\backcite {bls,perry2022}{{2}{1.2}{subsection.1.2}}
-\backcite {flvc2022}{{2}{1.2}{subsection.1.2}}
-\backcite {flvc2022}{{2}{1.2}{subsection.1.2}}
-\backcite {TB-JR-JH:13, RF-RP-BD:15, CW-DD-SC:17}{{2}{1.2}{subsection.1.2}}
+\backcite {opentextbooksfaq:nd}{{3}{1.1}{Item.7}}
+\backcite {bls}{{3}{1.2}{subsection.1.2}}
+\backcite {perry2018}{{3}{1.2}{subsection.1.2}}
+\backcite {bls,perry2022}{{3}{1.2}{subsection.1.2}}
+\backcite {flvc2022}{{3}{1.2}{subsection.1.2}}
+\backcite {flvc2022}{{3}{1.2}{subsection.1.2}}
+\backcite {TB-JR-JH:13, RF-RP-BD:15, CW-DD-SC:17}{{3}{1.2}{subsection.1.2}}
 \backcite {LA:2017}{{3}{1.2}{subsection.1.2}}
 \backcite {CC:17, MS:14}{{3}{1.2}{subsection.1.2}}
-\backcite {MC:17, AF-MM:12, KG-WD:17, RG-JM-SW:22, JH-CL:12, JH-LF-DW:16, RJ-FD-RL-KP:18, OO-CH:17, NP-DB:13, RF-RP-BD:15, LF-JH:15, RP:15, TR:15, CB-WC-PH:18}{{3}{1.3}{subsection.1.3}}
-\backcite {CB-WC-PH:18}{{3}{1.3}{subsection.1.3}}
-\backcite {CB-WC-PH:18}{{3}{1.3}{subsection.1.3}}
-\backcite {VC:18, VC-SK:19, YC-CC:17, RJ-FD-RL-KP:18, ML-OM-CT:08, CL-JL:18, WB-MC-KL:12, JH-DG:13, LF-JH:15, GA-AG-MM:15, OO-CH:17, TR:15, EC:17, CH-SR-GR:17, HR-CH-VM:18, JWS-JP:17}{{3}{1.3}{table.caption.3}}
-\backcite {YC-CC:17, RG:17, TR:15}{{3}{1.3}{table.caption.3}}
-\backcite {VC-SK:19, hilton:16, hilton:22}{{3}{1.3}{table.caption.3}}
-\backcite {hilton:16, hilton:22}{{3}{1.3}{table.caption.3}}
 \backcite {CB-WC-PH:18}{{4}{1}{table.caption.1}}
-\backcite {CB-WC-PH:18}{{4}{2}{table.caption.2}}
-\backcite {CB-WC-PH:18}{{4}{3}{table.caption.3}}
-\backcite {JS-JS:2022}{{5}{1}{figure.caption.4}}
-\backcite {VC-SK:19}{{5}{1.3}{table.caption.3}}
-\backcite {EW-KB-HK:12}{{5}{1.3}{table.caption.3}}
-\backcite {JS-JS:2022}{{5}{1.4}{subsection.1.4}}
-\backcite {MB:2022, flvc2022}{{5}{1.4}{subsection.1.4}}
-\backcite {MM-EC:19}{{6}{4}{table.caption.5}}
+\backcite {MC:17, AF-MM:12, KG-WD:17, RG-JM-SW:22, JH-CL:12, JH-LF-DW:16, RJ-FD-RL-KP:18, OO-CH:17, NP-DB:13, RF-RP-BD:15, LF-JH:15, RP:15, TR:15, CB-WC-PH:18}{{4}{1.3}{subsection.1.3}}
+\backcite {CB-WC-PH:18}{{4}{1.3}{subsection.1.3}}
+\backcite {CB-WC-PH:18}{{4}{1.3}{subsection.1.3}}
+\backcite {VC:18, VC-SK:19, YC-CC:17, RJ-FD-RL-KP:18, ML-OM-CT:08, CL-JL:18, WB-MC-KL:12, JH-DG:13, LF-JH:15, GA-AG-MM:15, OO-CH:17, TR:15, EC:17, CH-SR-GR:17, HR-CH-VM:18, JWS-JP:17}{{4}{1.3}{table.caption.3}}
+\backcite {YC-CC:17, RG:17, TR:15}{{4}{1.3}{table.caption.3}}
+\backcite {CB-WC-PH:18}{{5}{2}{table.caption.2}}
+\backcite {CB-WC-PH:18}{{5}{3}{table.caption.3}}
+\backcite {VC-SK:19, hilton:16, hilton:22}{{6}{1.3}{table.caption.3}}
+\backcite {hilton:16, hilton:22}{{6}{1.3}{table.caption.3}}
+\backcite {VC-SK:19}{{6}{1.3}{table.caption.3}}
+\backcite {EW-KB-HK:12}{{6}{1.3}{table.caption.3}}
+\backcite {JS-JS:2022}{{6}{1.4}{subsection.1.4}}
+\backcite {MB:2022, flvc2022}{{6}{1.4}{subsection.1.4}}
 \backcite {CC:16, SO:19, MM-EC:19, CE:22}{{6}{1.4}{figure.caption.4}}
 \backcite {CC:16}{{6}{1.4}{figure.caption.4}}
 \backcite {MM-EC:19}{{6}{1.4}{figure.caption.4}}
 \backcite {CE:22}{{6}{1.4}{figure.caption.4}}
-\backcite {CA:22}{{6}{1.4}{table.caption.5}}
-\backcite {w3cwai}{{6}{1.4}{figure.caption.6}}
-\backcite {JN-AK:20}{{7}{1.4}{figure.caption.6}}
-\backcite {OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}{{7}{1.4}{figure.caption.6}}
+\backcite {JS-JS:2022}{{7}{1}{figure.caption.4}}
+\backcite {MM-EC:19}{{7}{4}{table.caption.5}}
+\backcite {CA:22}{{7}{1.4}{table.caption.5}}
+\backcite {w3cwai}{{7}{1.4}{figure.caption.6}}
+\backcite {JN-AK:20}{{8}{1.4}{figure.caption.6}}
+\backcite {OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}{{8}{1.4}{figure.caption.6}}
+\backcite {MA-EG:23, LA-AE-RB:2017}{{14}{5.2}{subsection.5.2}}
