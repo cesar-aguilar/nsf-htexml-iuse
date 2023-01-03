@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1672431256 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1672431258
-  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1672431253 57304 efdb4689b22d9c386a214218d7985328 ""
+["pdflatex"] 1672708902 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1672708904
+  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1672708901 64380 02f17bbdfab16fb0b49fc6d107d893d8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -122,11 +122,11 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1662666498 2826435 5350e39d5653ae9e84f92fcd8d13bb5d ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "oer_awareness.png" 1671137999 80949 1f19b98cda94f30b0370fbcb7a349b4a ""
-  "proposal.aux" 1672431258 12952 9705e3f8beb35a68b5e323f306d0c7d8 "pdflatex"
-  "proposal.brf" 1672431258 2290 7e2c50db8c6460ed28aab3f5b5c9c58b "pdflatex"
-  "proposal.out" 1672431258 3594 1cfdd0f51c5d63c5b573b2771f5ccd41 "pdflatex"
-  "proposal.tex" 1672431253 57304 efdb4689b22d9c386a214218d7985328 ""
-  "proposal.toc" 1672431258 1839 3c10950f54d00b285d175f87fa5e3fcc "pdflatex"
+  "proposal.aux" 1672708904 13540 b9bcafb5320d86e9315057eb31f22aaf "pdflatex"
+  "proposal.brf" 1672708904 2561 238be8bf54c90101ea28e22a736b0404 "pdflatex"
+  "proposal.out" 1672708904 3526 654fc1f2df55d7e3b8a8a56025bda68b "pdflatex"
+  "proposal.tex" 1672708901 64380 02f17bbdfab16fb0b49fc6d107d893d8 ""
+  "proposal.toc" 1672708904 1826 b1a33e4a820e1e62d6d537af78e91e0b "pdflatex"
   "stem-textbook-formats.png" 1671293201 96894 dbf046bbf29b0feba3658cf1fb2720a7 ""
   (generated)
   "proposal.aux"

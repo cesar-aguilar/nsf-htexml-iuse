@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  30 DEC 2022 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  2 JAN 2023 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -471,42 +471,47 @@ File: stem-textbook-formats.png Graphic file (type png)
 <use stem-textbook-formats.png>
 Package pdftex.def Info: stem-textbook-formats.png  used on input line 192.
 (pdftex.def)             Requested size: 227.62204pt x 227.61862pt.
-[6] [7 <./oer_awareness.png>] [8 <./stem-textbook-formats.png>] [9] [10] [11] [12] [13] [14] [15] (./proposal.brf)
+[6] [7 <./oer_awareness.png>] [8 <./stem-textbook-formats.png>] [9] [10]
+Overfull \hbox (9.54286pt too wide) in paragraph at lines 235--236
+[]\OT1/phv/m/n/10.95 Andrew Mis-sel-dine from South-ern Utah Uni-ver-sity (https://sites.google.com/a/suu.edu/andrew-
+ []
+
+[11] [12] [13] [14] [15] [16] [17] (./proposal.brf)
 \tf@brf=\write5
 \openout5 = `proposal.brf'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 []\OT1/phv/m/n/10.95 About CC Li-censes (n.d.), Cre-ative Com-mons. (n.d.). Re-trieved from
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\OT1/phv/m/n/10.95 Frequently Asked Ques-tions (n.d.). Open Text-book Li-brary. Re-trieved from
  []
 
-[17] [18] [19] [20] (./proposal.aux)
+[19] [20] [21] [22] (./proposal.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 1CFDD0F51C5D63C5B573B2771F5CCD41;3594.
+(rerunfilecheck)             Checksum: 654FC1F2DF55D7E3B8A8A56025BDA68B;3526.
 Package rerunfilecheck Info: File `proposal.brf' has not changed.
-(rerunfilecheck)             Checksum: 7E2C50DB8C6460ED28AAB3F5B5C9C58B;2290.
+(rerunfilecheck)             Checksum: 238BE8BF54C90101EA28E22A736B0404;2561.
  ) 
 Here is how much of TeX's memory you used:
- 12830 strings out of 478268
- 203418 string characters out of 5846348
- 508902 words of memory out of 5000000
- 30728 multiletter control sequences out of 15000+600000
+ 12847 strings out of 478268
+ 203579 string characters out of 5846348
+ 508989 words of memory out of 5000000
+ 30740 multiletter control sequences out of 15000+600000
  495042 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,2354b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,91p,2354b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on proposal.pdf (20 pages, 331000 bytes).
+Output written on proposal.pdf (22 pages, 337653 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 465 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 125 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

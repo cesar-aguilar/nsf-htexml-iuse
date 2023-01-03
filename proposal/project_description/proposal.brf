@@ -35,4 +35,9 @@
 \backcite {w3cwai}{{7}{1.4}{figure.caption.6}}
 \backcite {JN-AK:20}{{8}{1.4}{figure.caption.6}}
 \backcite {OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}{{8}{1.4}{figure.caption.6}}
-\backcite {MA-EG:23, LA-AE-RB:2017}{{14}{5.2}{subsection.5.2}}
+\backcite {DW:13}{{9}{1.5}{subsection.1.5}}
+\backcite {EM:17, DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
+\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
+\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
+\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
+\backcite {MA-EG:23, LA-AE-RB:2017}{{16}{5.2}{subsection.5.2}}
