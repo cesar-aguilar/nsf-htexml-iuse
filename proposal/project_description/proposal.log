@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  2 JAN 2023 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  3 JAN 2023 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,51 +441,51 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 94.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 96.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
+) [3]
 
-LaTeX Warning: Citation `LA:2017' on page 3 undefined on input line 101.
+LaTeX Warning: Citation `LA:2017' on page 4 undefined on input line 103.
 
-[3] [4] [5]
+[4] [5]
 <oer_awareness.png, id=259, 722.7pt x 722.7pt>
 File: oer_awareness.png Graphic file (type png)
 <use oer_awareness.png>
-Package pdftex.def Info: oer_awareness.png  used on input line 168.
+Package pdftex.def Info: oer_awareness.png  used on input line 170.
 (pdftex.def)             Requested size: 256.0748pt x 256.06956pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 174.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 176.
 
-Underfull \hbox (badness 1158) in paragraph at lines 184--184
+Underfull \hbox (badness 1158) in paragraph at lines 186--186
 \OT1/phv/m/n/10.95 im-age, PDF, or other non-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 184--184
+Underfull \hbox (badness 1320) in paragraph at lines 186--186
 \OT1/phv/m/n/10.95 editable for-mat that can-not
  []
 
 <stem-textbook-formats.png, id=275, 722.7pt x 722.7pt>
 File: stem-textbook-formats.png Graphic file (type png)
 <use stem-textbook-formats.png>
-Package pdftex.def Info: stem-textbook-formats.png  used on input line 192.
+Package pdftex.def Info: stem-textbook-formats.png  used on input line 194.
 (pdftex.def)             Requested size: 227.62204pt x 227.61862pt.
-[6] [7 <./oer_awareness.png>] [8 <./stem-textbook-formats.png>] [9] [10]
-Overfull \hbox (9.54286pt too wide) in paragraph at lines 235--236
-[]\OT1/phv/m/n/10.95 Andrew Mis-sel-dine from South-ern Utah Uni-ver-sity (https://sites.google.com/a/suu.edu/andrew-
- []
-
-[11] [12] [13] [14] [15] [16] [17] (./proposal.brf)
+[6] [7 <./oer_awareness.png>] [8 <./stem-textbook-formats.png>] [9] [10] [11] [12] [13] [14] [15] [16] [17] (./proposal.brf)
 \tf@brf=\write5
 \openout5 = `proposal.brf'.
+
+ [18]
+Overfull \hbox (42.28246pt too wide) in paragraph at lines 381--381
+[][][]\OT1/phv/m/n/10.95 http://cconlinejournal.org/dec[]2022/ShettyChoi/Shetty2/Templates/UPDATEDWikipedia[]BU[]USC.html[][][]
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 383--383
 []\OT1/phv/m/n/10.95 About CC Li-censes (n.d.), Cre-ative Com-mons. (n.d.). Re-trieved from
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\OT1/phv/m/n/10.95 Frequently Asked Ques-tions (n.d.). Open Text-book Li-brary. Re-trieved from
  []
@@ -495,23 +495,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--399
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 654FC1F2DF55D7E3B8A8A56025BDA68B;3526.
+(rerunfilecheck)             Checksum: 84ED8075F9A4DB8E44A6BC86FCE743B7;3599.
 Package rerunfilecheck Info: File `proposal.brf' has not changed.
-(rerunfilecheck)             Checksum: 238BE8BF54C90101EA28E22A736B0404;2561.
+(rerunfilecheck)             Checksum: 918DF503B2D3BE159292F15E2E49120C;2766.
  ) 
 Here is how much of TeX's memory you used:
- 12847 strings out of 478268
- 203579 string characters out of 5846348
- 508989 words of memory out of 5000000
- 30740 multiletter control sequences out of 15000+600000
+ 12862 strings out of 478268
+ 203786 string characters out of 5846348
+ 509088 words of memory out of 5000000
+ 30752 multiletter control sequences out of 15000+600000
  495042 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,2354b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,91p,2354b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on proposal.pdf (22 pages, 337653 bytes).
+Output written on proposal.pdf (22 pages, 338730 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 492 compressed objects within 5 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
