@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1672785008 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1672785010
-  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1672785005 65083 e7b59f35d5c3c892d62700dcade574ca ""
+["pdflatex"] 1673016501 "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" "proposal.pdf" "proposal" 1673016502
+  "/Users/cesar/Documents/nsf-htexml-iuse/proposal/project_description/proposal.tex" 1673016500 72542 a45a778d78216dd8b79005c843ad9334 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -122,11 +122,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1662666498 2826435 5350e39d5653ae9e84f92fcd8d13bb5d ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "oer_awareness.png" 1671137999 80949 1f19b98cda94f30b0370fbcb7a349b4a ""
-  "proposal.aux" 1672785010 14005 b75872b43daa9b257353bf3ebde11bce "pdflatex"
-  "proposal.brf" 1672785010 2766 918df503b2d3be159292f15e2e49120c "pdflatex"
-  "proposal.out" 1672785010 3599 84ed8075f9a4db8e44a6bc86fce743b7 "pdflatex"
-  "proposal.tex" 1672785005 65083 e7b59f35d5c3c892d62700dcade574ca ""
-  "proposal.toc" 1672785010 1840 44624f9d190a95ba7111f244ddcc2366 "pdflatex"
+  "proposal.aux" 1673016502 14897 e142dd4160cf19f9869ba4add683f0ed "pdflatex"
+  "proposal.brf" 1673016502 3085 147703a6ccd2e887290c6cad6e8de86e "pdflatex"
+  "proposal.out" 1673016502 3736 198bd6e58a18b0c4c65a23eb89fc0eec "pdflatex"
+  "proposal.tex" 1673016500 72542 a45a778d78216dd8b79005c843ad9334 ""
   "stem-textbook-formats.png" 1671293201 96894 dbf046bbf29b0feba3658cf1fb2720a7 ""
   (generated)
   "proposal.aux"
@@ -134,4 +133,3 @@
   "proposal.log"
   "proposal.out"
   "proposal.pdf"
-  "proposal.toc"

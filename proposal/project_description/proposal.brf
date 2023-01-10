@@ -1,47 +1,53 @@
-\backcite {unescoforum:02, oerguidelines}{{2}{1.1}{subsection.1.1}}
-\backcite {oerworldcongress}{{2}{1.1}{subsection.1.1}}
-\backcite {wileynd}{{2}{1.1}{Item.2}}
-\backcite {CClicenses:nd}{{2}{1.1}{Item.7}}
-\backcite {opentextbooksfaq:nd}{{3}{1.1}{Item.7}}
-\backcite {bls}{{3}{1.2}{subsection.1.2}}
-\backcite {perry2018}{{3}{1.2}{subsection.1.2}}
-\backcite {bls,perry2022}{{3}{1.2}{subsection.1.2}}
-\backcite {flvc2022}{{3}{1.2}{subsection.1.2}}
-\backcite {flvc2022}{{4}{1.2}{subsection.1.2}}
-\backcite {TB-JR-JH:13, RF-RP-BD:15, CW-DD-SC:17}{{4}{1.2}{subsection.1.2}}
-\backcite {LA:2017}{{4}{1.2}{subsection.1.2}}
-\backcite {CC:17, MS:14}{{4}{1.2}{subsection.1.2}}
-\backcite {MC:17, AF-MM:12, KG-WD:17, RG-JM-SW:22, JH-CL:12, JH-LF-DW:16, RJ-FD-RL-KP:18, OO-CH:17, NP-DB:13, RF-RP-BD:15, LF-JH:15, RP:15, TR:15, CB-WC-PH:18}{{4}{1.3}{subsection.1.3}}
-\backcite {CB-WC-PH:18}{{4}{1.3}{subsection.1.3}}
-\backcite {CB-WC-PH:18}{{4}{1.3}{subsection.1.3}}
-\backcite {VC:18, VC-SK:19, YC-CC:17, RJ-FD-RL-KP:18, ML-OM-CT:08, CL-JL:18, WB-MC-KL:12, JH-DG:13, LF-JH:15, GA-AG-MM:15, OO-CH:17, TR:15, EC:17, CH-SR-GR:17, HR-CH-VM:18, JWS-JP:17}{{4}{1.3}{table.caption.3}}
-\backcite {YC-CC:17, RG:17, TR:15}{{4}{1.3}{table.caption.3}}
+\backcite {unescoforum:02, oerguidelines}{{2}{2.1}{subsection.2.1}}
+\backcite {oerworldcongress}{{2}{2.1}{subsection.2.1}}
+\backcite {wileynd}{{2}{2.1}{Item.2}}
+\backcite {CClicenses:nd}{{3}{2.1}{Item.7}}
+\backcite {opentextbooksfaq:nd}{{3}{2.1}{Item.7}}
+\backcite {bls}{{3}{2.2}{subsection.2.2}}
+\backcite {perry2018}{{4}{2.2}{subsection.2.2}}
+\backcite {bls,perry2022}{{4}{2.2}{subsection.2.2}}
+\backcite {flvc2022}{{4}{2.2}{subsection.2.2}}
+\backcite {flvc2022}{{4}{2.2}{subsection.2.2}}
+\backcite {TB-JR-JH:13, RF-RP-BD:15, CW-DD-SC:17}{{4}{2.2}{subsection.2.2}}
+\backcite {LA:2017}{{4}{2.2}{subsection.2.2}}
+\backcite {CC:17, MS:14}{{4}{2.2}{subsection.2.2}}
+\backcite {MC:17, AF-MM:12, KG-WD:17, RG-JM-SW:22, JH-CL:12, JH-LF-DW:16, RJ-FD-RL-KP:18, OO-CH:17, NP-DB:13, RF-RP-BD:15, LF-JH:15, RP:15, TR:15, CB-WC-PH:18}{{4}{2.3}{subsection.2.3}}
+\backcite {CB-WC-PH:18}{{4}{2.3}{subsection.2.3}}
 \backcite {CB-WC-PH:18}{{5}{1}{table.caption.1}}
 \backcite {CB-WC-PH:18}{{5}{2}{table.caption.2}}
-\backcite {CB-WC-PH:18}{{5}{3}{table.caption.3}}
-\backcite {VC-SK:19, hilton:16, hilton:22}{{6}{1.3}{table.caption.3}}
-\backcite {hilton:16, hilton:22}{{6}{1.3}{table.caption.3}}
-\backcite {VC-SK:19}{{6}{1.3}{table.caption.3}}
-\backcite {EW-KB-HK:12}{{6}{1.3}{table.caption.3}}
-\backcite {JS-JS:2022}{{6}{1.4}{subsection.1.4}}
-\backcite {MB:2022, flvc2022}{{6}{1.4}{subsection.1.4}}
-\backcite {CC:16, SO:19, MM-EC:19, CE:22}{{6}{1.4}{figure.caption.4}}
-\backcite {CC:16}{{6}{1.4}{figure.caption.4}}
-\backcite {MM-EC:19}{{6}{1.4}{figure.caption.4}}
-\backcite {CE:22}{{6}{1.4}{figure.caption.4}}
+\backcite {CB-WC-PH:18}{{5}{2.3}{subsection.2.3}}
+\backcite {VC:18, VC-SK:19, YC-CC:17, RJ-FD-RL-KP:18, ML-OM-CT:08, CL-JL:18, WB-MC-KL:12, JH-DG:13, LF-JH:15, GA-AG-MM:15, OO-CH:17, TR:15, EC:17, CH-SR-GR:17, HR-CH-VM:18, JWS-JP:17}{{5}{2.3}{table.caption.3}}
+\backcite {YC-CC:17, RG:17, TR:15}{{5}{2.3}{table.caption.3}}
+\backcite {CB-WC-PH:18}{{6}{3}{table.caption.3}}
+\backcite {VC-SK:19, hilton:16, hilton:22}{{6}{2.3}{table.caption.3}}
+\backcite {hilton:16, hilton:22}{{6}{2.3}{table.caption.3}}
+\backcite {VC-SK:19}{{6}{2.3}{table.caption.3}}
+\backcite {EW-KB-HK:12}{{6}{2.3}{table.caption.3}}
+\backcite {JS-JS:2022}{{6}{2.4}{subsection.2.4}}
+\backcite {MB:2022, flvc2022}{{6}{2.4}{subsection.2.4}}
+\backcite {CC:16, SO:19, MM-EC:19, CE:22}{{6}{2.4}{figure.caption.4}}
 \backcite {JS-JS:2022}{{7}{1}{figure.caption.4}}
 \backcite {MM-EC:19}{{7}{4}{table.caption.5}}
-\backcite {CA:22}{{7}{1.4}{table.caption.5}}
-\backcite {w3cwai}{{7}{1.4}{figure.caption.6}}
-\backcite {JN-AK:20}{{8}{1.4}{figure.caption.6}}
-\backcite {OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}{{8}{1.4}{figure.caption.6}}
-\backcite {DW:13}{{9}{1.5}{subsection.1.5}}
-\backcite {EM:17, DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
-\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
-\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
-\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
-\backcite {KC-TS-BL:nd}{{10}{1.5}{subsection.1.5}}
-\backcite {HZ-AB-AO:nd}{{10}{1.5}{subsection.1.5}}
-\backcite {DW:13, DW-JH:18}{{10}{1.5}{subsection.1.5}}
-\backcite {HC-MS:22}{{11}{1.5}{subsection.1.5}}
-\backcite {MA-EG:23, LA-AE-RB:2017}{{16}{5.2}{subsection.5.2}}
+\backcite {CC:16}{{7}{2.4}{figure.caption.4}}
+\backcite {MM-EC:19}{{7}{2.4}{figure.caption.4}}
+\backcite {CE:22}{{7}{2.4}{figure.caption.4}}
+\backcite {CA:22}{{8}{2.4}{table.caption.5}}
+\backcite {w3cwai}{{8}{2.4}{figure.caption.6}}
+\backcite {JN-AK:20}{{8}{2.4}{figure.caption.6}}
+\backcite {OB-RB:16, RJ-RP-CH:2016, JS-JS:2018}{{9}{2.4}{figure.caption.6}}
+\backcite {DW:13}{{10}{2.5}{subsection.2.5}}
+\backcite {EM:17, DW:13, DW-JH:18}{{10}{2.5}{subsection.2.5}}
+\backcite {CB-JE:91, MC:09, MC-MB-ML:89, SF-SE-MM:14, MP:04}{{10}{2.5}{subsection.2.5}}
+\backcite {CB-JE:91}{{10}{2.5}{subsection.2.5}}
+\backcite {DW:13, DW-JH:18}{{10}{2.5}{subsection.2.5}}
+\backcite {DW:13, DW-JH:18}{{10}{2.5}{subsection.2.5}}
+\backcite {DW:13, DW-JH:18}{{11}{2.5}{subsection.2.5}}
+\backcite {EM:17}{{11}{2.5}{subsection.2.5}}
+\backcite {KC-TS-BL:nd}{{11}{2.5}{subsection.2.5}}
+\backcite {HZ-AB-AO:nd}{{11}{2.5}{subsection.2.5}}
+\backcite {DW:13, DW-JH:18}{{11}{2.5}{subsection.2.5}}
+\backcite {HC-MS:22}{{11}{2.5}{subsection.2.5}}
+\backcite {SF-SE-MM:14}{{12}{3}{section.3}}
+\backcite {maa:71}{{12}{3.1}{subsection.3.1}}
+\backcite {cbms:15}{{13}{3.1}{subsection.3.1}}
+\backcite {MA-EG:23, LA-AE-RB:2017}{{16}{6.2}{subsection.6.2}}

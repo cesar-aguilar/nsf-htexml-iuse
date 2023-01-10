@@ -45,15 +45,31 @@
 \begin{center}
 \textbf{\Large Project Description}\\[0.25cm]
 \hrulefill\\[0.2cm]
-\textbf{\Large Facilitating Community Building using\\[0.2ex] Open Educational Resources for\\[0.2ex] Improved Student Engagement in\\[0.2ex] Undergraduate Mathematics}\\
+\textbf{\Large Integrating Open Educational Practices\\ in Undergraduate Mathematics for \\[0.1cm]Improved Student Engagement and Digital Literacy}\\
 \hrulefill
 \end{center}
 \baselineskip 1.5em
 
-\tableofcontents
+% \tableofcontents
 
 %=========================================================
-\section{Overview}
+\section{Project Overview}
+Advocates of \textbf{open educational resources} (OER), and more broadly \textbf{open educational practices} (OEP), attest that by removing barriers to education such as cost, accessibility, quality, inclusivity, and relevancy to the local learning environment, OEP can help improve student outcomes and learning experiences. A strategy to implement OEP in the classroom is to democratize the knowledge acquiring process by empowering students to actively participate in the creation and adaptation of OER for one's own consumption and for future downstream learners. Although OER initiatives at all institutional levels have increased awareness of the benefits of OER, the actual usage and practical integration of OER in higher-education is still somewhat limited due to several barriers such as, for example, perceptions of the quality of OER, faculty effort, and persistency of traditional teaching models.  Nonetheless, more and more educators, initially drawn by the cost savings passed on to students by adopting OER, are reassessing their approaches to teaching in view of the ecosystem surrounding the OEP movement and are cultivating more student-centered, learner-sourced, community-based, and diversity-infused learning environments.  Despite the growing evidence of the benefits of adopting open educational resources in higher-education, more work is needed to understand the impact of OEP on STEM education.
+
+Motivated by the potential benefits of integrating OEP in higher-education, one of the main goals of this project is to understand to what extent does involving undergraduate students in creating OER impact student performance, engagement, and overall learning experience.  To answer this question, students enrolled in an upper division real analysis course, primarily taken by future secondary mathematics teachers, will collaboratively create, adapt, and remix an online open textbook in a variety of ways such as:
+\begin{compactitem}
+\item writing commentaries to proofs and worked examples, 
+\item writing reviews on the efficacy of worked examples to, for example, convey abstract notions,
+\item producing short instructional videos highlighting common misconceptions, and 
+\item creating study guides.
+\end{compactitem}
+Quality control of the produced materials will undergo an iterative peer-evaluation process.  The resulting open textbook will be improved and gradually expanded by future students enrolled in the course throughout the project lifetime and thus allowing a diverse representation of ideas, interpretations, misconceptions, and creativity.  Through student surveys, interviews, and comparison with historical data, the project PI will measure the impact of the proposed activities on student performance and engagement in the learning process.  
+
+The second main goal of this project is to develop, test, and deploy a user-friendly web-based program for creating mathematically rich OER that are easily accessible, adaptable, and which leverage recent advances in web-based technologies.  The proposed web-based software will be made available as a standalone tool for converting LaTeX documents to HTML and/or can be integrated into existing publishing software used widely by OER publishers and librarians.  Students involved in the project will use the proposed software to create the open textbook on real analysis and simultaneously provide feedback to steer development of the program.  In addition to learning skills in mark-up languages such as LaTeX and HTML, the collaborative nature of the project will give students experience in using software version control systems and thereby improve computer skills, team work skills, and digital literacy.
+
+Results of the project will be disseminated in peered reviewed journals on STEM education and presented at national and regional meetings of mathematicians and educators.  The proposed software tool will be made freely available to the general public via software repositories such as GitHub and the project website.
+
+\section{Background}
 
 \subsection{What are Open Educational Resources?}
 The term \textbf{open educational resources} (OER) was first used in 2002 by a panel of academics convened by UNESCO to discuss the OpenCourseWare (OCW) initiative by MIT \cite{unescoforum:02, oerguidelines}.  MIT's plan was to make freely available online course materials from approximately 2,000 courses for use by anyone worldwide.  There are currently over 2,500 courses on the MIT OpenCourseWare website where for each course one can find course notes, textbooks, videos, assignments, exams (some with solutions), or syllabi.  In the last couple of decades, many OER repositories and search engines have sprung up such as MERLOT, OER Commons, OASIS, the TU Delft OpenCourseWare, the Open Textbook Library, OpenStax, Lumen Learning, Milne Open Textbooks, Open Michigan, BCcampus Open Textbook, the Maryland Open Source Textbook project, and many others.  At the center of the OER initiative, or more broadly the open education movement, is the belief that educational resources should be available at no-cost to students and that teaching and learning is strengthened when teaching resources are shared openly by educators.
@@ -210,17 +226,30 @@ In contrast, HTML is \textit{the} native mark-up language of the web and is the 
 
 The ability to embed LaTeX in HTML has broad implications on the creation of web-based OER  by mathematicians, computer scientists, engineers, and physicists due to the ubiquitous use of LaTeX in STEM to write course notes, textbooks, and other educational materials.  However, individual content creators and institutional publishers are faced with the difficult and time-consuming task of converting LaTeX source code to HTML in order to take advantage of the native rendering capabilities in web browsers.  Although existing open-source software exist to convert between different mark-up languages such as LaTeX and HTML, most notably \textbf{pandoc}, the conversion process is not always straightforward and requires a certain level of technical expertise.  Alternatively, \textbf{PreTeXt} is a recent mark-up language for authoring and publishing content on the web (and other formats) especially in STEM disciplines but requires authors to learn a new mark-up language and requires the conversion of LaTeX content  to the PreTeXt language.  Although PreTeXt is a promising solution for authoring mathematical content on the web, the ubiquity of LaTeX in STEM fields and the HTML standard built in all web browsers naturally calls for more user friendly and open-source tools to convert between LaTeX and HTML and thereby allows authors to continue to use LaTeX to create STEM educational resources.
 
-\subsection{Open Pedagogy: More Than Just Cost Savings}
-Although a main thrust of OER adoption continues to be cost savings, in recent years, advocates of open education have shifted the conversation to the potential improvements to student learning outcomes when faculty decide to exercise the capabilities afforded by open licenses.  As noted by David Wiley, ``using OER the same way we used commercial textbooks misses the point'' and ``simply adopting open educational resources will not make one's pedagogy magically change to take advantage of the capabilities of the internet" \cite{DW:13}.  A popular sentiment in the open education community is to ``come for the cost savings, stay for the pedagogy''.
+\subsection{Open Pedagogy as Active Learning}
+Although a main thrust of OER adoption continues to be cost savings, in recent years, advocates of open education have shifted the conversation to the potential improvements to student learning outcomes when faculty decide to exercise the capabilities afforded by open licenses.  As noted by David Wiley from Lumen Learning, ``using OER the same way we used commercial textbooks misses the point'' and ``simply adopting open educational resources will not make one's pedagogy magically change to take advantage of the capabilities of the internet" \cite{DW:13}.  A popular sentiment in the open education community is to ``come for the cost savings, stay for the pedagogy''.
 
-Amidst the shift in the open education movement towards the pedagogical benefits of OER, terms such as ``\textbf{open educational practices}'' (OEP), ``\textbf{open pedagogy}'', and ``\textbf{OER-enabled pedagogy}'' have been coined to describe pedagogy that emphasizes a more student-centered approach that empowers students as creators of knowledge and open resources \cite{EM:17, DW:13, DW-JH:18}.  A central idea within this framework is that knowledge consumption and knowledge creation are not separate but rather parallel process that together can help students improve and validate their own learning experiences.  In this OER-enabled teaching paradigm, teachers no longer take the sole responsibility of all-knowing providers of knowledge but instead take on the role of facilitators of knowledge discovery and creation.
+Amidst the conversation shift in the open education movement towards the pedagogical benefits of OER, terms such as ``\textbf{open educational practices}'' (OEP), ``\textbf{open pedagogy}'', and ``\textbf{OER-enabled pedagogy}'' have been coined to describe pedagogy that emphasizes a more student-centered approach that empowers students as creators of knowledge and open resources \cite{EM:17, DW:13, DW-JH:18}.  A central idea within this framework is that knowledge consumption and knowledge creation are not separate but rather parallel process that together can help students improve and validate their own learning experiences.  In this OER-enabled teaching paradigm, teachers no longer take the sole responsibility of all-knowing providers of knowledge but instead take on the role of facilitators of knowledge discovery and creation.
+
+Positioned within the body of knowledge of existing evidence-based effective pedagogies, open pedagogy at its core is based upon the teaching method of \textbf{active learning} via student-generated learning materials \cite{CB-JE:91, MC:09, MC-MB-ML:89, SF-SE-MM:14, MP:04}.  Although there is no universally accepted definition, active learning is any teaching method that engages students in the learning process rather than the traditional practice of lecturing where students are primarily passive recipients of knowledge. Some common strategies promoting active learning are \cite{CB-JE:91}:
+\begin{compactitem}
+  \item Students are involved in more than listening.
+  \item Less emphasis is placed on transmitting information and
+  more on developing students' skills.
+  \item Students are involved in higher-order thinking (analysis,
+  synthesis, evaluation).
+  \item Students are engaged in activities (e.g., reading, discussing, writing).
+  \item Greater emphasis is placed on students' exploration of
+  their own attitudes and values.
+\end{compactitem}
+These strategies promoting active learning 
 
 In a classroom where open pedagogy is practiced, student assignments are no longer ``disposable'' which are assignments that are ultimately deleted or thrown away by students and have no value outside of the immediate context in which they were assigned, completed, and graded \cite{DW:13, DW-JH:18}. Although these so-called disposable assignments can and do provide valuable opportunities for student learning, open pedagogy advocates call for a shift to using more ``renewable assignments''. As described in \cite{DW:13, DW-JH:18}, renewable assignments are those that ``support an individual student's learning and result in new or improved open educational resources that provide a lasting benefit to the broader community of learners".  It is argued that a student who knows that their work might be used by their colleagues to finally help grasp a key difficult concept in the course, or a student who is allowed to have freedom in how to contribute to knowledge creation and thereby choose something they actually enjoy, will engage in the learning process more deeply and thus result in better learning outcomes \cite{DW:13, DW-JH:18}.  Some examples of open pedagogy include:
 
 \begin{itemize}
   \item Adapt or remix open educational resources with students. For example, adding problems or discussion questions to an existing open textbook, creating study guides for tests, test questions banks, or other ancillary materials.
   
-  \item Create an open textbook with students.  A good example of this is the open textbook \textit{Environmental Science Bites} written by undergraduate students at the Ohio State University \cite{KC-TS-BL:nd} who were enrolled in an environment science class taught by Dr. Brian H. Lower.  Each section of the textbook was written by a first-time author who in addition to learning the effects of climate change and population growth on the environment, also learned about the publication and peer-review process, and improved their research, writing, and computer literacy skills.  Another good example is the open textbook \textit{A Student's Guide to Tropical Marine Biology} written by undergraduate students enrolled in a course taught by Dr. Karen Cangialosi at Keene State College from 2017 to 2019 \cite{HZ-AB-AO:nd}.
+  \item Create an open textbook with students \cite{EM:17}.  A good example of this is the open textbook \textit{Environmental Science Bites} written by undergraduate students at the Ohio State University \cite{KC-TS-BL:nd} who were enrolled in an environment science class taught by Dr. Brian H. Lower.  Each section of the textbook was written by a first-time author who in addition to learning the effects of climate change and population growth on the environment, also learned about the publication and peer-review process, and improved their research, writing, and computer literacy skills.  Another good example is the open textbook \textit{A Student's Guide to Tropical Marine Biology} written by undergraduate students enrolled in a course taught by Dr. Karen Cangialosi at Keene State College from 2017 to 2019 \cite{HZ-AB-AO:nd}.
 
   \item Build course syllabus, learning outcomes, assignments, rubrics, and schedules of work collaboratively with students. Allowing students to be co-creators of course policies could help instill a greater sense of ownership of and empowerment in their learning process and thus improve student engagement and ultimately learning outcomes \cite{DW:13, DW-JH:18}. It is likely that in many college departments, including for example the PI's home institution, course learning objectives are fixed and set by department policies.  Nonetheless, beginning a faculty conversation surrounding collaborative syllabus writing could help departments and institutions plant a seed towards building a more student-centered and open approach to learning that permeates beyond syllabus creation.
   
@@ -230,16 +259,19 @@ In a classroom where open pedagogy is practiced, student assignments are no long
   
 \end{itemize}
 
-
 %=========================================================
 \section{Project Proposal}
 
-A promise of open educational resources (OER) is that by removing barriers to education such as cost, accessibility, quality, and relevancy to the local learning environment, OER can help improve student outcomes and learning experiences.  A principal belief of OER is that student success can be improved when users of OER can actively participate in the creation and adaptation of educational materials for one's own consumption and for future downstream learners.  Although OER initiatives at global, national, state, and institutional levels have increased awareness of the benefits of OER, the actual practical integration and usage of OER in higher-education is still somewhat limited.  Nonetheless, more and more educators, initially drawn by the cost savings passed on to students by adopting OER, are rethinking their approaches to teaching thanks to the ecosystem surrounding the OER movement and are fostering more student-centered, learner-sourced, community-based, and diversity-infused learning environments.
+Studies have shown that student learning outcomes improve when students are active participants in the learning process rather than being solely consumers of information \cite{SF-SE-MM:14}.  Students will generate assessments for their peers and simultaneously answer and assess assessments created by their peers. The creation of the assessments will be guided by students' own misconceptions of the content and through self-reflective questioning of perceived understanding and thus also improving the learning experience of future students.  In the process, under-represented students in STEM and future high-school teachers will be trained to use mathematical mark-up languages and version control systems and thereby increasing the number of computer-literate individuals entering the STEM secondary education workforce.  A main part of the project will be the development and deployment of a web-based software tool to facilitate the creation of STEM open educational resources with a primary goal of facilitating the reusability of educational materials and increasing the availability of no-cost high-quality resources for instructors and students. The web-based software will be available as a stand-alone program and integrated into existing OER publishing platforms. Quantitative and qualitative data will be collected from students to evaluate learning outcomes and perceptions of learner-sourcing activities.  An overarching goal of the project is to implement a model of closer collaboration between educators and students in the creation, delivery, and consumption of STEM education.  Results of the project will be disseminated in national and regional workshops and software tools will be made freely available to the general public.
 
-The goal of this project is to advance undergraduate STEM education by building communities of practice around the creation, usage, improvement, and distribution of open educational resources in undergraduate mathematics courses.  Students at a liberal arts college in varying levels of study and disciplines will engage in learner-sourcing group activities to increase student engagement in the learning process with the aim of solidifying the understanding of learnt material.  Studies have shown that student learning outcomes improve when students are active participants in the creation of learning materials rather than being solely consumers of information.  Students will generate assessments for their peers and simultaneously answer and assess assessments created by their peers. The creation of the assessments will be guided by students' own misconceptions of the content and through self-reflective questioning of perceived understanding and thus also improving the learning experience of future students.  In the process, under-represented students in STEM and future high-school teachers will be trained to use mathematical mark-up languages and version control systems and thereby increasing the number of computer-literate individuals entering the education sector.  A main part of the project will be the development and deployment of a web-based software tool to facilitate the creation of STEM open educational resources with a primary goal of facilitating the reusability of educational materials and increasing the availability of no-cost high-quality resources for instructors and students.  Quantitative and qualitative data will be collected from students to evaluate learning outcomes and perceptions of learner-sourcing activities.  An overarching goal of the project is to implement a model of closer collaboration between educators and students in the creation, delivery, and consumption of STEM education.  Results of the project will be disseminated in national and regional workshops and software tools will be made freely available to the general public.
+Objectives:
+\begin{itemize}
+  \item Develop and deploy a user-friendly web-based tool to facilitate the creation of mathematically rich open educational resources that are easily accessible, reusable, adaptable, and which leverage recent advances in web-based technologies.
+  \item Integrate open educational practices into undergraduate mathematics courses and generate knowledge on the impact of student-generated content activities on student performance and engagement in the learning process.
+\end{itemize}
 
-
-\subsection{Overview}
+\subsection{Why Real Analysis?}
+In 1965, the Committee on the Undergraduate Program in Mathematics (CUPM) of the Mathematical Association of America (MAA) recommended that a course in real analysis should be part of any undergraduate mathematics program and in 1971 CUPM recommendation was extended to include programs preparing high school mathematics teachers \cite{maa:71}.  Based on a 2015 survey conducted by the Conference Board of Mathematical Sciences, approximately 66\% of all mathematics programs and 54\% of the secondary mathematics teacher training programs require at least one semester of a real analysis course \cite{cbms:15}. Real Analysis is often the most challenging course in a mathematics undergraduate curriculum and can be a barrier to a student's ability to complete their major on time.  In a standard course in real analysis, there are many subtle and technical ideas that require several logical quantifiers to describe using a definition.  Moreover, a standard course in real analysis requires students to write clear and rigorous proofs using as models proofs that have been elegantly refine over many years.
 
 %=========================================================
 \subsection{Existing Technology}
@@ -362,10 +394,19 @@ During the award period, the PI gave two workshops to participants of New York S
   \bibitem{MB:2022} Baas, M., van der Rijst, R., Huizinga, T., van den Berg, E., Admiraal, W. (2022). Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education. {\em The Internet and Higher Education}, 54, 100857.
 
   \bibitem{OB-RB:16} Belikov, O. M., and Bodily, R. (2016). Incentives and barriers to OER adoption: A qualitative analysis of faculty perceptions. Open Praxis, 8(3), 235-246. %DOI: \alink{http://doi.org/10.5944/openpraxis.8.3.308}{http://doi.org/10.5944/openpraxis.8.3.308}
+
+  \bibitem{cbms:15} Blair, R., Kirkman, E.E., and Maxwell, J.W. (2015). Statistical Abstract of Undergraduate Programs in the Mathematical Sciences in the United States-Fall 2015 Conference Board of Mathematical Sciences.  Retrieved from \alink{http://www.ams.org/profession/data/cbms-survey/cbms2015}{http://www.ams.org/profession/data/cbms-survey/cbms2015}
   
   \bibitem{TB-JR-JH:13} Bliss, T., Robinson, T.J., Hilton, J. and Wiley, D.A., 2013. An OER COUP: College Teacher and Student Perceptions of Open Educational Resources. Journal of Interactive Media in Education, 2013(1), p.Art. 4.% DOI: \alink{http://doi.org/10.5334/2013-04}{http://doi.org/10.5334/2013-04}
 
+  \bibitem{CB-JE:91} Bonwell, C. C., and Eison, J. A. (1991). {\em Active learning: Creating excitement in the classroom}. 1991 ASHE-ERIC higher education reports. ERIC Clearinghouse on Higher Education, The George Washington University, One Dupont Circle, Suite 630, Washington, DC 20036-1183.
+
   \bibitem{WB-MC-KL:12} Bowen, W. G., Chingos, M. M., Lack, K. A., and Nygren, T. I. (2012). Interactive learning online at public universities: Evidence from randomized trials. {\em Ithaka S + R}.
+
+  \bibitem{MC:09} Chi, M. T. (2009). Active‐constructive‐interactive: A conceptual framework for differentiating learning activities. {\em Topics in Cognitive Science}, 1(1), 73-105.
+
+  \bibitem{MC-MB-ML:89} Chi, M. T., Bassok, M., Lewis, M. W., Reimann, P., and Glaser, R. (1989). Self-explanations: How students study and use examples in learning to solve problems. {\em Cognitive Science}, 13(2), 145-182.
+
 
   \bibitem{MC:17} Chiorescu, M. (2017). Exploring open educational resources for college algebra. {\em The International Review of Research in Open and Distributed Learning}, 18(4).
 
@@ -404,6 +445,8 @@ During the award period, the PI gave two workshops to participants of New York S
 
   \bibitem{flvc2022} Florida Virtual Campus, 2022 Student Textbook and Instructional Materials Survey. Tallahassee, FL. %\alink{https://dlss.flvc.org/colleges-and-universities/research/textbooks}{https://dlss.flvc.org/colleges-and-universities/research/textbooks}.
 
+  \bibitem{SF-SE-MM:14} Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., and Wenderoth, M. P. (2014). Active learning increases student performance in science, engineering, and mathematics. {\em Proceedings of the National Academy of Sciences}, 111(23), 8410-8415.
+
   \bibitem{KG-WD:17} Grewe, K., and Davis, W. P. (2017). The Impact of Enrollment in an OER Course on Student Learning Outcomes. {\em The International Review of Research in Open and Distributed Learning}, 18(4).
 
   \bibitem{RG-JM-SW:22} Griffiths, R., Mislevy, J. and Wang, S. (2022). Encouraging impacts of an Open Education Resource Degree Initiative on college students’ progress to degree. {\em Higher Education}. 84, 1089-1106.
@@ -432,6 +475,8 @@ During the award period, the PI gave two workshops to participants of New York S
 
   \bibitem{ML-OM-CT:08} Lovett, M., Meyer, O., and Thille, C. (2008). The Open Learning Initiative: Measuring the effectiveness of the OLI statistics course in accelerating student learning. Journal of Interactive Media in Education, 14, 1-16.
 
+  \bibitem{maa:71} Recommendation on Course Content for the Training of Teachers of Mathematics. CUPM Panel on Teacher Training. August, 1971. Retrieved from \alink{http://maa.utstaging.com/programs/faculty-and-departments/curriculum-department-guidelines-recommendations/cupm/first-40-years/the-founding-of-cupm-1958-1978-part3}{http://maa.utstaging.com/programs/faculty-and-departments/curriculum-department-guidelines-recommendations/cupm/first-40-years/the-founding-of-cupm-1958-1978-part3}
+
   \bibitem{EM:17} Mays, E., DeRosa, R., Jhangiani, R., Robbins, T., Squires, D., Ward, J., \ldots and Moore, M. (2017). A guide to making open textbooks with students. Rebus Community.
 
   \bibitem{MM-EC:19} McNally, M. B., and Christiansen, E. G. (2019). Open enough? Eight factors to consider when transitioning from closed to open resources and courses: A conceptual framework. {\em First Monday}, 24(6).% \alink{https://doi.org/10.5210/fm.v24i6.9180}{https://doi.org/10.5210/fm.v24i6.9180}
@@ -453,6 +498,8 @@ During the award period, the PI gave two workshops to participants of New York S
   \bibitem{perry2022} Perry, M.J. (2022). Chart of the Day \ldots or Century?. {\em Carpe Diem}.% \alink{https://www.aei.org/carpe-diem/chart-of-the-day-or-century-8/}{https://www.aei.org/carpe-diem/chart-of-the-day-or-century-8/}.
 
   \bibitem{RP:15} Pitt, R. (2015). Mainstreaming Open Textbooks: Educator Perspectives on the Impact of OpenStax College open textbooks. {\em The International Review of Research in Open and Distributed Learning}, 16(4).
+
+  \bibitem{MP:04} Prince, M. (2004). Does active learning work? A review of the research. {\em Journal of Engineering Education}, 93(3), 223-231.
 
   \bibitem{TR:15} Robinson, T. J. (2015). Open textbooks: The effects of open educational resource adoption on measures of post-secondary student success. Doctoral dissertation. Brigham Young University.
 
